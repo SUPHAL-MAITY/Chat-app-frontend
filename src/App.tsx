@@ -10,10 +10,10 @@ function App() {
   return (
     <>
     <div className="h-screen w-screen flex items-center justify-center ">
-       <div className="  h-[96%] w-[96%] flex justify-evenly items-center bg-[#EFF6FC] rounded-[25px]">
+       <div className="  h-[100%] w-[100%] flex justify-evenly items-center bg-[#EFF6FC] ">
 
         {/* left side div */}
-          <div className="hidden md:flex flex-col justify-center  w-[133px] h-[90%] bg-[#6E00FF] rounded-[25px] items-center"> 
+          <div className="hidden md:flex flex-col justify-center  w-[100px] h-[90%] bg-[#6E00FF] rounded-[25px] items-center"> 
             <img src="https://img.freepik.com/free-photo/portrait-happy-young-woman-looking-camera_23-2147892777.jpg?semt=ais_hybrid" alt="" className="w-[48px] h-[48px] rounded-[50%] mt-10 mb-10"  />
             <div className="flex flex-col flex-grow">
               <img src="./home.png" className="w-[38px] h-[38px] rounded-[50%] mb-10" alt="" />
